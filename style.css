@@ -55,13 +55,12 @@ color:white;
 }
 
 .hero h1{
-
-font-size:60px;
-
-letter-spacing:3px;
-
-text-shadow:3px 3px 10px black;
-
+  font-size: clamp(42px, 7vw, 110px);
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 10px black;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.1;
 }
 
 .hero p{
